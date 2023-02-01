@@ -1,0 +1,66 @@
+<html {% load static %}>
+
+<head>
+  <title>Buscopolis</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="shortcut icon" href="{% static 'DjangoUniApp/img/logo.jpg'%}">
+    {% load static%}
+
+    <!-- Bootstrap -->
+    <link href="{% static 'DjangoUniApp/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+     <!-- Fonts -->
+    
+     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet"> 
+     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+     
+
+    <!-- Styles -->
+    <link href="{% static 'DjangoUniApp/css/gestion.css'%}" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Heading -->
+  <div>
+    <img width="400" class="img2" src="{% static 'DjangoUniApp/img/BUSCOPOLI-03.jpg'%}" alt="imagen 2">
+  </div>
+  <div class="container">
+
+		<form action="javascript:void(0);" method="get">
+			
+			<fieldset>
+				<input type="search" id="search" placeholder="">
+        <button type="submit" id="btn-search"><span class="fontawesome-search"></span></button>
+			</fieldset>
+
+		</form>
+  
+	</div> <!-- end container -->
+
+  <div>
+    <a class="boton" href="#" target="_blank"><h3>investigacion en servicio escrito</h3></a>
+  </div>
+  <div>
+    <a class="boton" href="#" target="_blank"><h3>Convocatorias</h3></a>
+  </div>
+  <div>
+    <a class="boton1" href="#" target="_blank"><h3>Grupos</h3></a>
+  </div>
+
+    <!-- Footer -->
+    <footer class="footer text-faded text-center py-3">
+        <div class="red-social">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-youtube"></a>
+          <h2>@unimareditorial</h2>
+        </div>
+	</footer>
+
+</body>
+
+
+
+</html>
+
